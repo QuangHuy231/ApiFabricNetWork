@@ -18,8 +18,8 @@ function json_ccp {
 ORG=A
 P0PORT=7051
 CAPORT=7054
-PEERPEM=/home/huy/FabricNetwork/OrgA/Peer/tls/tlscacerts/tls-localhost-7054-ca-orgA.pem
-CAPEM=/home/huy/FabricNetwork/OrgA/CA-server/tls-cert.pem
+PEERPEM=/home/huy/FabricNetwork/OrgA/Admin/tls/tlscacerts/tls-localhost-7054-ca-orgA.pem
+CAPEM=/home/huy/FabricNetwork/OrgA/CA-server/ca-cert.pem
 
 echo "$(json_ccp $ORG $P0PORT $CAPORT $PEERPEM $CAPEM)" > connection-orgA.json
 
